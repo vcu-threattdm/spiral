@@ -2,7 +2,7 @@ def spiralize(number):
     number*=number
     start=1
     inc=2
-    return_value = 1
+    return_value=1
     while start<number:
         for i in range(4):
             start+=inc
