@@ -1,4 +1,3 @@
-diag = clock
 def spiralize(number):
     number*=number
     start=1
@@ -10,4 +9,4 @@ def spiralize(number):
             return_value+=start
         inc+=2
     return return_value
-print (spiralize(501))
+print ( spiralize(501))
